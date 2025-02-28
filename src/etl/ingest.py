@@ -46,4 +46,4 @@ if __name__ == "__main__":
 
     if data:
         print("Uploading data to Azure Blob Storage...")
-        save_data_to_blob(data, "raw-data/products.json")
+        save_data_to_blob(data, "products.json")
